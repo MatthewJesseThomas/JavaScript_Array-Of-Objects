@@ -1,0 +1,82 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+    background-image: linear-gradient(to right, #000428, #2c3e50, #bdc3c7); ;
+}
+h1{
+    margin: auto;
+    margin-top: 1rem;
+    padding: auto;
+    text-align: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+p{
+    margin: auto;
+    margin-top: 1rem;
+    padding: auto;
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem; 
+    text-shadow: .3vw .3vw 1vw rgba(0, 0, 87, 11);
+}
+.container {
+    margin: auto;
+    margin-top: 1rem;
+    padding: auto;
+    padding-top: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+#firstname {
+    margin: auto;
+    margin-bottom: .5rem;
+    width: 20rem;
+    height: 3rem;
+    border: 3px solid rgba(10, 10, 87, 11);
+    border-radius: 1.5rem;
+}
+#surname {
+    margin: auto;
+    margin-bottom: .5rem;
+    margin-right: 1.5rem;
+    width: 20rem;
+    height: 3rem;
+    border: 3px solid rgba(10, 10, 87, 11);
+    border-radius: 1.5rem;
+}
+#Email {
+    margin: auto;
+    margin-bottom: .5rem;
+    margin-right: .5rem;
+    width: 20rem;
+    height: 3rem;
+    border: 3px solid rgba(10, 10, 87, 11);
+    border-radius: 1.5rem;
+}
+.msg-box {
+    margin: auto;
+    margin-bottom: .5rem;
+    margin-right: .5rem;
+    width: 25rem;
+    border: 3px solid rgba(10, 10, 87, 11);
+    border-radius: .5rem;
+}
+.btns {
+    margin: auto;
+    width: 6rem;
+    height: 3rem;
+    border: 3px solid rgba(10, 10, 87, 11);
+    border-radius: .5rem;
+    background-color: aquamarine;
+}
+.btn:hover {
+    scale: 1.1;
+    background-color: aqua;
+}
